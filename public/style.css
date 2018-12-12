@@ -1,0 +1,66 @@
+/*zde budou globální styly*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content {
+  min-height: 600px;
+  max-height: auto;
+  padding-bottom: 120px;
+}
+
+button {
+    background-color: rgb(2, 30, 43);
+    color: rgb(201, 198, 198);
+    border: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+  }
+
+.button-active:hover {
+  background-color: rgb(3, 47, 68);
+  cursor: pointer;
+}
+.button-passive {
+  color: rgb(109, 107, 107);
+  cursor: auto;
+}
+
+input {
+  background-color: rgb(2, 30, 43);
+  color: rgb(201, 198, 198);
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+input:focus {
+  background-color: rgb(3, 38, 54);
+}
+image {
+  display: block;
+  margin: auto;
+}
+
+/* styly pro header */
+
+/* styly pro nav bar jsou v souboru Nav.vue*/
+
+/*zde budou styly pro side bar*/
+
+
+
+/*zde budou styly pro footer*/
